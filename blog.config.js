@@ -1,3 +1,9 @@
+/*
+ * @Author: fghpdf
+ * @Date: 2023-04-06 22:13:48
+ * @LastEditTime: 2023-04-06 22:16:41
+ * @LastEditors: fghpdf
+ */
 const BLOG = {
   title: 'fghpdf 的小房间',
   author: 'fghpdf',
@@ -5,6 +11,7 @@ const BLOG = {
   link: 'https://fghpdf.github.io',
   description: 'fghpdf 记录生活的地方',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP']
+  timezone: 'Asia/Tokyo', // Your Notion posts' date will be interpreted as this timezone. See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
@@ -19,7 +26,7 @@ const BLOG = {
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
   socialLink: 'https://www.linkedin.com/in/fghpdf/',
   seo: {
-    keywords: ['Blog', '日本', '新加坡', '润', 'Japan', 'Singapore', 'Xiangxuan', 'fghpdf'],
+    keywords: ['Blog', '日本', '新加坡', '润', 'Japan', 'Singapore', 'Xiangxuan', 'fghpdf', '圈圈', '博客', '润学', '赴日', '大手', '程序员', 'Woven', 'Toyota', '丰田', 'Bybit'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
