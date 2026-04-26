@@ -13,7 +13,7 @@ export default function FormattedDate ({ date }) {
 
   useEffect(() => {
     if (!isLocaleLoaded) {
-      loaded[lang] ??= import(`dayjs/locale/${lang}`).then(
+      loaded[lang] ??= import(`dayjs/locale/${lang}.js`).then(
         () => {
           loaded[lang] = true
           dayjs.locale(lang)
